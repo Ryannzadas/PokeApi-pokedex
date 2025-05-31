@@ -1,52 +1,38 @@
-##🐾 Pokémon API
+#**📘 PokeApi Pokedex**#
 
-Este projeto é uma API REST desenvolvida com Java e Spring Boot que fornece informações detalhadas sobre Pokémon, incluindo habilidades, movimentos, tipos, estatísticas e evoluções. Também inclui uma interface web simples para interação com a API.
+Este projeto é uma Pokédex interativa que consome a PokéAPI para exibir informações detalhadas sobre diferentes Pokémon. Desenvolvido com Java e Spring Boot no backend, e HTML, CSS e JavaScript no frontend, oferece uma experiência completa para os fãs de Pokémon.
 
-📦 Funcionalidades
-Consulta de detalhes de Pokémon individuais.
+🔍 Funcionalidades
+Listagem de Pokémon com informações básicas.
+Detalhes individuais de cada Pokémon, incluindo habilidades, tipos e estatísticas.
+Busca por nome ou ID do Pokémon.
+Interface responsiva para diferentes dispositivos.
 
-Informações sobre habilidades, movimentos, tipos e estatísticas.
+🛠️ Tecnologias Utilizadas
+Backend:
 
-Dados sobre cadeia de evolução.
-
-Interface web para visualização básica.
-
-Integração com fontes externas (como a PokéAPI).
-
-🚀 Tecnologias Utilizadas
 Java 17+
-
 Spring Boot
-
 Maven
 
-REST API
+Frontend:
 
-HTML/CSS/JavaScript (Frontend simples)
+HTML5
+CSS3
+JavaScript
 
-📁 Estrutura do Projeto
-bash
-Copiar
-Editar
-api de pokemon2/
-├── pom.xml
-├── src/
-│   ├── main/
-│   │   ├── java/com/pokemon/
-│   │   │   ├── controller/          # Controladores da API
-│   │   │   ├── model/               # Modelos de domínio (Pokemon, Ability, etc.)
-│   │   │   ├── repository/          # Interfaces de acesso a dados
-│   │   │   ├── service/             # Lógica de negócio
-│   │   │   └── PokemonApplication.java  # Classe principal
-│   │   └── resources/
-│   │       ├── static/              # Frontend estático
-│   │       └── application.properties
-📌 Como Executar
+API Externa:
+
+PokéAPI
+
+
+🚀 Como Executar o Projeto
 
 Pré-requisitos
 
-JDK 17 ou superior
-Maven 3.8+
+Java 17 ou superior instalado.
+
+Maven instalado.
 
 Passos para execução
 
@@ -55,22 +41,39 @@ Clone o repositório:
 git clone https://github.com/Ryannzadas/PokeApi-pokedex.git
 cd PokeApi-pokedex
 
-Compile e execute:
+Compile e execute o projeto:
 
 mvn spring-boot:run
 
-Acesse:
-
-API: http://localhost:8080/api/pokemon
+Acesse a aplicação:
 
 Frontend: http://localhost:8080/index.html
 
-🧪 Exemplos de Endpoints
-GET /api/pokemon: Lista de Pokémon
+API: http://localhost:8080/api/pokemon
 
-GET /api/pokemon/{id}: Detalhes de um Pokémon
-
-GET /api/pokemon/{id}/evolutions: Cadeia de evolução
+📁 Estrutura do Projeto
+css
+Copiar
+Editar
+PokeApi-pokedex/
+├── pom.xml
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/pokemon/
+│   │   │       ├── controller/
+│   │   │       ├── model/
+│   │   │       ├── repository/
+│   │   │       ├── service/
+│   │   │       └── PokemonApplication.java
+│   │   └── resources/
+│   │       ├── static/
+│   │       │   ├── index.html
+│   │       │   ├── css/
+│   │       │   │   └── style.css
+│   │       │   └── js/
+│   │       │       └── main.js
+│   │       └── application.properties
 
 📄 Licença
-Este projeto é de uso educacional e está sob a licença MIT.
+Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
