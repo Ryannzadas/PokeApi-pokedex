@@ -1,4 +1,5 @@
 🐾 Pokémon API
+
 Este projeto é uma API REST desenvolvida com Java e Spring Boot que fornece informações detalhadas sobre Pokémon, incluindo habilidades, movimentos, tipos, estatísticas e evoluções. Também inclui uma interface web simples para interação com a API.
 
 📦 Funcionalidades
