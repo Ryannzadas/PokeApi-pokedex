@@ -55,25 +55,20 @@ API: http://localhost:8080/api/pokemon
 
 **📁 Estrutura do Projeto**
 
-PokeApi-pokedex/
+api de pokemon2/
 ├── pom.xml
 ├── src/
 │   ├── main/
-│   │   ├── java/
-│   │   │   └── com/pokemon/
-│   │   │       ├── controller/
-│   │   │       ├── model/
-│   │   │       ├── repository/
-│   │   │       ├── service/
-│   │   │       └── PokemonApplication.java
+│   │   ├── java/com/pokemon/
+│   │   │   ├── controller/          # Controladores da API
+│   │   │   ├── model/               # Modelos de domínio (Pokemon, Ability, etc.)
+│   │   │   ├── repository/          # Interfaces de acesso a dados
+│   │   │   ├── service/             # Lógica de negócio
+│   │   │   └── PokemonApplication.java  # Classe principal
 │   │   └── resources/
-│   │       ├── static/
-│   │       │   ├── index.html
-│   │       │   ├── css/
-│   │       │   │   └── style.css
-│   │       │   └── js/
-│   │       │       └── main.js
+│   │       ├── static/              # Frontend estático
 │   │       └── application.properties
+
 
 **📄 Licença**
 Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
