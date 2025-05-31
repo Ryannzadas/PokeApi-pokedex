@@ -54,9 +54,7 @@ Frontend: http://localhost:8080/index.html
 API: http://localhost:8080/api/pokemon
 
 **📁 Estrutura do Projeto**
-css
-Copiar
-Editar
+
 PokeApi-pokedex/
 ├── pom.xml
 ├── src/
