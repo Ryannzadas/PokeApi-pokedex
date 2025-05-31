@@ -29,7 +29,7 @@ PokéAPI
 
 **🚀 Como Executar o Projeto**
 
-Pré-requisitos
+**Pré-requisitos**
 
 Java 17 ou superior instalado.
 
@@ -37,16 +37,17 @@ Maven instalado.
 
 Passos para execução
 
-Clone o repositório:
+**Clone o repositório:**
 
 git clone https://github.com/Ryannzadas/PokeApi-pokedex.git
+
 cd PokeApi-pokedex
 
-Compile e execute o projeto:
+**Compile e execute o projeto:**
 
 mvn spring-boot:run
 
-Acesse a aplicação:
+**Acesse a aplicação:**
 
 Frontend: http://localhost:8080/index.html
 
