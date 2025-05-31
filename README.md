@@ -3,6 +3,7 @@
 Este projeto é uma Pokédex interativa que consome a PokéAPI para exibir informações detalhadas sobre diferentes Pokémon. Desenvolvido com Java e Spring Boot no backend, e HTML, CSS e JavaScript no frontend, oferece uma experiência completa para os fãs de Pokémon.
 
 **🔍 Funcionalidades**
+
 Listagem de Pokémon com informações básicas.
 Detalhes individuais de cada Pokémon, incluindo habilidades, tipos e estatísticas.
 Busca por nome ou ID do Pokémon.
